@@ -15,9 +15,8 @@ from bs4 import BeautifulSoup
 app = Flask(__name__)
 
 FB_API_URL = 'https://graph.facebook.com/v2.6/me/messages'
-VERIFY_TOKEN = ''# <paste your verify token here>
-PAGE_ACCESS_TOKEN = 'EAAHTTORmNvoBAGFrrmvbRMw78Q6J7ZBipZAtG6QfTK4Q9AoNPAJquiS5aZAkHKHQyM1z7tqrFmh89zaTTrADCnfBDUu3iozsY8ZBZAHXgYK0CDYs5ZBdZAAuZAbKUwFN1eZCUlBxJ4gMwbd6ZBRPjp9CABE7lCDpz8xhrnOxzqcwQ1xQZDZD'# paste your page access token here>"
-
+VERIFY_TOKEN = 'gamebotforallgames'# <paste your verify token here>
+PAGE_ACCESS_TOKEN = 'EAAHTTORmNvoBAOvExwHib5amPZBxu3QlO069YAssd0JhUfahyXlNapMyK1UiFr9P399RZB036vhZCJIOK1eA0ofoiJSFtmlKIZBduTu0goIZAoH29Uy7NZCZAXwZBZBaooV8INYu1z0Qoe4VsvElkjyyG2iYiumBJgKYlXLTiF66lwwZDZD'
 nltk.download('punkt', quiet=True)
 
 
