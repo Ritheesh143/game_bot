@@ -16,7 +16,7 @@ app = Flask(__name__)
 
 FB_API_URL = 'https://graph.facebook.com/v2.6/me/messages'
 VERIFY_TOKEN = ''# <paste your verify token here>
-PAGE_ACCESS_TOKEN = ''# paste your page access token here>"
+PAGE_ACCESS_TOKEN = 'EAAHTTORmNvoBAGFrrmvbRMw78Q6J7ZBipZAtG6QfTK4Q9AoNPAJquiS5aZAkHKHQyM1z7tqrFmh89zaTTrADCnfBDUu3iozsY8ZBZAHXgYK0CDYs5ZBdZAAuZAbKUwFN1eZCUlBxJ4gMwbd6ZBRPjp9CABE7lCDpz8xhrnOxzqcwQ1xQZDZD'# paste your page access token here>"
 
 nltk.download('punkt', quiet=True)
 
